@@ -15,6 +15,24 @@
         echo $num, "<br/>";
         $num++;
     }
+
+    echo "<br><hr><br>";
+
+    $num = 0;
+    while ($num <= 100) {
+        echo $num, "<br>";
+        $num += 10;
+    }
+
+    echo "<br><hr><br>";
+
+    $i = 0;
+    while ($i <= 100) {
+        if ($i % 2 == 0) {
+            echo $i , "<br>";
+        }
+        $i++;
+    }
     ?>
 </body>
 
